@@ -20,12 +20,13 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3F51B5"
             android:text="@string/textview"
             android:textColor="#FFFFFF"
             android:textSize="20sp"
+            android:textAlignment="center"
             android:textStyle="bold" />
     </RelativeLayout>
 
@@ -51,7 +52,7 @@
 
         <Button
             android:id="@+id/askButton"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#3F51B5"
             android:text="@string/text_button"
